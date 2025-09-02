@@ -85,7 +85,11 @@
 </p>
 ## 🏁 F1 Standings
 <!--F1_STANDINGS_START-->
-Cargando posiciones...
+**Actualizado:** 2025-09-02 13:27 UTC
+
+⚠️ No se pudo obtener la tabla de F1 por ahora (posible caída temporal de la API).
+Error: `URLError: <urlopen error [Errno 111] Connection refused>`
+
 <!--F1_STANDINGS_END-->
 
 ---
