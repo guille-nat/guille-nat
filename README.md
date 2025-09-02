@@ -1,7 +1,6 @@
-
 <p align="center">
   <!-- Cyberpunk banner F1 -->
-  <img src="banner_f1.svg" alt="F1 Cyberpunk Banner of Guillermo" />
+  <img src="banner_pitlane.svg" alt="F1 Cyberpunk Banner of Guillermo" />
 </p>
 
 <div align="center">
@@ -24,12 +23,12 @@
 - 🎓 **Técnico Superior en Desarrollo de Software** (graduado).
 - 🏫 Actualmente cursando **4º año de Ingeniería en Sistemas** en la **Universidad Abierta Interamericana – UAI Rosario** (turno noche).
 - 💻 Backend con **Django**, **Ruby on Rails** y **APIs REST**.
-- 🔐 Seguridad **JWT**, despliegues con **Docker/Nginx**, bases de datos **PostgreSQL/MySQL**.
+- 🔐 Seguridad, despliegues con **Docker/Nginx**, bases de datos **PostgreSQL/MySQL**.
 - ⚡ Enfoque en **performance**, **buenas prácticas** y **DX**.
 
 ---
 
-## 🛠️ Tech Stack (grid + badges)
+## 🛠️ Tech Stack
 
 <table>
   <tr>
@@ -77,13 +76,12 @@
 
 ---
 
-## 🏎️ F1 Vibes (Cyberpunk Edition)
+## 🏎️ F1 Vibes
 
 <p align="center">
   <img src="https://img.shields.io/badge/F1-Mindset-000000?style=for-the-badge&logo=fastlane&logoColor=white" />
   <img src="https://img.shields.io/badge/Team-Lewis%20Hamilton-00D2BE?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Support-Franco%20Colapinto-1B5E20?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Neon-%23FF00AA-FF00AA?style=for-the-badge" />
 </p>
 
 ---
@@ -94,18 +92,6 @@
   Repo: <https://github.com/guille-nat/spree_purchase_recommendations>
 - **API Compras** → API REST con Django + DRF, JWT, Swagger/ReDoc y automatizaciones de comprobantes.  
   Repo: <https://github.com/guille-nat/Api_Compras>
-
----
-
-## 📊 Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=guille-nat&show_icons=true&theme=radical" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guille-nat&layout=compact&theme=radical" height="160">
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=guille-nat&theme=radical" height="160">
-</p>
 
 ---
 
@@ -127,6 +113,18 @@ Cargando efemérides...
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
+
+---
+
+## 📊 Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=guille-nat&show_icons=true&theme=radical" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guille-nat&layout=compact&theme=radical" height="160">
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=guille-nat&theme=radical" height="160">
+</p>
 
 ---
 

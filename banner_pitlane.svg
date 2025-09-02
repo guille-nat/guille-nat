@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1400" height="320" viewBox="0 0 1400 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="320" viewBox="0 0 1400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Guillermo Natali Ulla — Software Developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0B1220"/>
@@ -9,40 +9,16 @@
       <stop offset="0%" stop-color="#00E5FF"/>
       <stop offset="100%" stop-color="#FF00AA"/>
     </linearGradient>
-    <pattern id="check" patternUnits="userSpaceOnUse" width="20" height="20">
-      <rect width="10" height="10" fill="#000"/>
-      <rect x="10" y="10" width="10" height="10" fill="#000"/>
-      <rect x="10" width="10" height="10" fill="#fff"/>
-      <rect y="10" width="10" height="10" fill="#fff"/>
-    </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-
-  <!-- Background -->
   <rect width="1400" height="320" fill="url(#bg)"/>
-
-  <!-- Checkered side bar -->
-  <rect x="0" y="0" width="220" height="320" fill="url(#check)" opacity="0.10"/>
-
-  <!-- Pit-lane diagonal stripe -->
-  <polygon points="1400,0 900,0 400,320 1400,320" fill="url(#neon)" opacity="0.15"/>
-
-  <!-- Racing stripes -->
-  <rect x="0" y="260" width="1400" height="10" fill="url(#neon)" opacity="0.65"/>
-  <rect x="0" y="280" width="1400" height="6" fill="url(#neon)" opacity="0.45"/>
-  <rect x="0" y="296" width="1400" height="4" fill="url(#neon)" opacity="0.30"/>
-
-  <!-- Title -->
-  <text x="250" y="150" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="54" fill="#FF00AA" filter="url(#glow)">
-    Guillermo Natali Ulla — Backend & DevOps
+  <polygon points="1400,0 930,0 520,320 1400,320" fill="url(#neon)" opacity="0.18"/>
+  <rect x="0" y="250" width="1400" height="12" fill="url(#neon)" opacity="0.75"/>
+  <rect x="0" y="272" width="1400" height="8" fill="url(#neon)" opacity="0.45"/>
+  <rect x="0" y="292" width="1400" height="4" fill="url(#neon)" opacity="0.30"/>
+  <text x="220" y="150" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="54" fill="#FF00AA">
+    Guillermo Natali Ulla — Software Developer
   </text>
-  <text x="250" y="205" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="26" fill="#8BE9FD">
+  <text x="220" y="205" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="26" fill="#8BE9FD">
     F1 mindset · performance · teamwork · strategy
   </text>
 </svg>
