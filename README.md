@@ -113,7 +113,7 @@ Cargando posiciones...
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-Cargando efemérides...
+No hay eventos cargados para hoy (09-02). ¡Agrega más en scripts/update_efemerides.py!
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
