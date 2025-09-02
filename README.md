@@ -83,6 +83,10 @@
   <img src="https://img.shields.io/badge/Team-Lewis%20Hamilton-00D2BE?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Support-Franco%20Colapinto-1B5E20?style=for-the-badge" />
 </p>
+## 🏁 F1 Standings
+<!--F1_STANDINGS_START-->
+Cargando posiciones...
+<!--F1_STANDINGS_END-->
 
 ---
 
@@ -107,7 +111,7 @@
 
 ---
 
-## 📅 Efemérides de la Programación (auto)
+## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
 Cargando efemérides...
 <!--EFEMERIDES_END-->

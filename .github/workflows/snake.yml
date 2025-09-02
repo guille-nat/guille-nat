@@ -1,15 +1,24 @@
+
 name: Snake contributions
 
 on:
   schedule:
-    - cron: "0 1 * * *" # 01:00 UTC daily
+    - cron: "0 1 * * *"
   workflow_dispatch: {}
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create dist dir
+        run: mkdir -p dist
 
       - name: Generate snake
         uses: Platane/snk@v3
@@ -19,10 +28,10 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      - name: Push snake
+      - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/snake*.svg || true
-          git commit -m "chore: update snake (auto)" || true
+          git add dist/snake*.svg
+          git commit -m "chore: update snake (auto)" || echo "No changes to commit"
           git push
