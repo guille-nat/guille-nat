@@ -83,14 +83,6 @@
   <img src="https://img.shields.io/badge/Team-Lewis%20Hamilton-00D2BE?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Support-Franco%20Colapinto-1B5E20?style=for-the-badge" />
 </p>
-## 🏁 F1 Standings
-<!--F1_STANDINGS_START-->
-**Actualizado:** 2025-09-02 13:54 UTC
-
-⚠️ No se pudo obtener la tabla de F1 por ahora (la API puede estar caída).
-Intenta más tarde o corre el workflow manualmente.
-
-<!--F1_STANDINGS_END-->
 
 ---
 
@@ -118,6 +110,7 @@ Intenta más tarde o corre el workflow manualmente.
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
 No hay efemérides para el día de hoy (09-02). La efeméride anterior más cercana es del **08-12**:
+
 - 1981: IBM presenta la **IBM PC 5150**, un hito en la estandarización de los ordenadores personales.
 <!--EFEMERIDES_END-->
 
