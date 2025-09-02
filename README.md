@@ -1,9 +1,3 @@
-
-No hay efemérides para el día de hoy (09-02). La efeméride anterior más cercana es del **08-12**:
-- 1981: IBM presenta la **IBM PC 5150**, un hito en la estandarización de los ordenadores personales.
-
-No hay efemérides para el día de hoy (09-02). La efeméride anterior más cercana es del **08-12**:
-- 1981: IBM presenta la **IBM PC 5150**, un hito en la estandarización de los ordenadores personales.
 <p align="center">
   <!-- Cyberpunk banner F1 -->
   <img src="banner_pitlane.svg" alt="F1 Cyberpunk Banner of Guillermo" />
