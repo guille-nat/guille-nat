@@ -3,8 +3,12 @@ name: Update F1 standings
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -17,14 +21,18 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Quick connectivity check (Ergast)
+        run: |
+          set -e
+          (curl -sSfL --max-time 20 https://ergast.com/api/f1/current/driverStandings.json >/dev/null) || true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Update standings
-        run: |
-          python scripts/f1_standings.py
+        run: python scripts/f1_standings.py
 
       - name: Commit & push README
         run: |

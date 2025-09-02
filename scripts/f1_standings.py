@@ -1,50 +1,70 @@
 
-import json, urllib.request, datetime
+import json
+import urllib.request
+import urllib.error
+import datetime
+import time
 from pathlib import Path
 
 README = Path("README.md")
 START = "<!--F1_STANDINGS_START-->"
 END = "<!--F1_STANDINGS_END-->"
 
-ERGAST_DRIVERS = "https://ergast.com/api/f1/current/driverStandings.json"
-ERGAST_CONSTRUCTORS = "https://ergast.com/api/f1/current/constructorStandings.json"
+URLS = {
+    "drivers_https": "https://ergast.com/api/f1/current/driverStandings.json",
+    "drivers_http":  "http://ergast.com/api/f1/current/driverStandings.json",
+    "teams_https":   "https://ergast.com/api/f1/current/constructorStandings.json",
+    "teams_http":    "http://ergast.com/api/f1/current/constructorStandings.json",
+}
 
-def fetch_json(url):
-    with urllib.request.urlopen(url, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+def fetch_json_with_fallback(primary, fallback, retries=3, backoff=5):
+    urls = [primary, fallback]
+    last_err = None
+    for attempt in range(retries):
+        url = urls[attempt % 2] if attempt < 2 else urls[0]  # try primary, then fallback, then primary
+        try:
+            with urllib.request.urlopen(url, timeout=30) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+            last_err = e
+            time.sleep(backoff)
+    raise last_err
 
 def drivers_table():
-    data = fetch_json(ERGAST_DRIVERS)
+    data = fetch_json_with_fallback(URLS["drivers_https"], URLS["drivers_http"])
     standings = data["MRData"]["StandingsTable"]["StandingsLists"][0]["DriverStandings"]
-    rows = []
+    out = ["| Pos | Piloto | Equipo | Pts |", "|:--:|:------|:------|---:|"]
     for s in standings[:10]:
         d = s["Driver"]
         name = f"{d['familyName']}, {d['givenName']}"
         team = s["Constructors"][0]["name"]
-        rows.append((s["position"], name, team, s["points"]))
-    out = ["| Pos | Piloto | Equipo | Pts |", "|:--:|:------|:------|---:|"]
-    for p, name, team, pts in rows:
-        out.append(f"| {p} | {name} | {team} | {pts} |")
+        out.append(f"| {s['position']} | {name} | {team} | {s['points']} |")
     return "\n".join(out)
 
 def constructors_table():
-    data = fetch_json(ERGAST_CONSTRUCTORS)
+    data = fetch_json_with_fallback(URLS["teams_https"], URLS["teams_http"])
     standings = data["MRData"]["StandingsTable"]["StandingsLists"][0]["ConstructorStandings"]
-    rows = []
-    for s in standings[:10]:
-        rows.append((s["position"], s["Constructor"]["name"], s["points"]))
     out = ["| Pos | Constructor | Pts |", "|:--:|:-----------|---:|"]
-    for p, team, pts in rows:
-        out.append(f"| {p} | {team} | {pts} |")
+    for s in standings[:10]:
+        out.append(f"| {s['position']} | {s['Constructor']['name']} | {s['points']} |")
     return "\n".join(out)
 
 def build_block():
-    now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    return (
-        f"**Actualizado:** {now}\n\n"
-        f"### Pilotos (Top 10)\n{drivers_table()}\n\n"
-        f"### Constructores (Top 10)\n{constructors_table()}\n"
-    )
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    try:
+        drivers = drivers_table()
+        teams = constructors_table()
+        return (
+            f"**Actualizado:** {now}\n\n"
+            f"### Pilotos (Top 10)\n{drivers}\n\n"
+            f"### Constructores (Top 10)\n{teams}\n"
+        )
+    except Exception as e:
+        return (
+            f"**Actualizado:** {now}\n\n"
+            f"⚠️ No se pudo obtener la tabla de F1 por ahora (posible caída temporal de la API).\n"
+            f"Error: `{type(e).__name__}: {e}`\n"
+        )
 
 def replace_block(md, new):
     i = md.find(START)
