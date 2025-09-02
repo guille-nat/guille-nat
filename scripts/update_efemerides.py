@@ -58,8 +58,8 @@ def build_block():
             return f"No hay efemérides para el día de hoy ({key})."
 
 def replace_block(md: str, new_block: str) -> str:
-    start = ""
-    end = ""
+    start = "<!--EFEMERIDES_START-->"
+    end = "<!--EFEMERIDES_END-->"
     i = md.find(start)
     j = md.find(end)
     if i == -1 or j == -1:

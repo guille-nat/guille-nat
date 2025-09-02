@@ -117,7 +117,7 @@ Error: `URLError: <urlopen error [Errno 111] Connection refused>`
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay eventos cargados para hoy (09-02). ¡Agrega más en scripts/update_efemerides.py!
+
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
