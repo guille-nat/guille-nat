@@ -21,11 +21,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Quick connectivity check (Ergast)
-        run: |
-          set -e
-          (curl -sSfL --max-time 20 https://ergast.com/api/f1/current/driverStandings.json >/dev/null) || true
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -38,6 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md scripts/data/f1_cache.json || true
           git commit -m "chore: update F1 standings (auto)" || echo "No changes"
           git push
