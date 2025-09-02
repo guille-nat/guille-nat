@@ -117,7 +117,8 @@ Error: `URLError: <urlopen error [Errno 111] Connection refused>`
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-
+No hay efemérides para el día de hoy (09-02). La efeméride anterior más cercana es del **08-12**:
+- 1981: IBM presenta la **IBM PC 5150**, un hito en la estandarización de los ordenadores personales.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
