@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (12-08). La efeméride anterior más cercana es del **10-29**:
-- 1969: Se envía el primer mensaje entre dos computadoras en **ARPANET**, el precursor de Internet.
+- 1968: **Douglas Engelbart** realiza la 'Madre de Todas las Demos', presentando el ratón, la interfaz gráfica de usuario y el hipertexto.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
