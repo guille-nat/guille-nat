@@ -109,6 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
+No hay efemérides para el día de hoy (12-10). La efeméride anterior más cercana es del **12-09**:
 - 1968: **Douglas Engelbart** realiza la 'Madre de Todas las Demos', presentando el ratón, la interfaz gráfica de usuario y el hipertexto.
 <!--EFEMERIDES_END-->
 
