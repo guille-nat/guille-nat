@@ -109,6 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
+No hay efemérides para el día de hoy (12-12). La efeméride anterior más cercana es del **12-11**:
 - 1995: Se lanza el lenguaje de programación **JavaScript** para Netscape Navigator.
 <!--EFEMERIDES_END-->
 
