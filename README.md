@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (12-31). La efeméride anterior más cercana es del **12-11**:
-- 1995: Se lanza el lenguaje de programación **JavaScript** para Netscape Navigator.
+- 1970: Comienza la **Unix Epoch** (00:00:00 UTC), el punto de referencia temporal para sistemas operativos tipo Unix.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
