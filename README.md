@@ -109,6 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
+No hay efemérides para el día de hoy (01-02). La efeméride anterior más cercana es del **01-01**:
 - 1970: Comienza la **Unix Epoch** (00:00:00 UTC), el punto de referencia temporal para sistemas operativos tipo Unix.
 <!--EFEMERIDES_END-->
 
