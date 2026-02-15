@@ -109,7 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (02-14). La efeméride anterior más cercana es del **01-24**:
+No hay efemérides para el día de hoy (02-15). La efeméride anterior más cercana es del **01-24**:
 - 1984: Apple lanza la **Macintosh**, el primer ordenador personal con una interfaz gráfica de usuario (GUI) exitosa.
 <!--EFEMERIDES_END-->
 
