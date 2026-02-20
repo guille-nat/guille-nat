@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (02-19). La efeméride anterior más cercana es del **01-24**:
-- 1984: Apple lanza la **Macintosh**, el primer ordenador personal con una interfaz gráfica de usuario (GUI) exitosa.
+- 1991: **Guido van Rossum** anuncia la primera versión pública de **Python**, un lenguaje de programación de alto nivel.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
