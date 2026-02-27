@@ -109,7 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (02-26). La efeméride anterior más cercana es del **02-20**:
+No hay efemérides para el día de hoy (02-27). La efeméride anterior más cercana es del **02-20**:
 - 1991: **Guido van Rossum** anuncia la primera versión pública de **Python**, un lenguaje de programación de alto nivel.
 <!--EFEMERIDES_END-->
 
