@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (04-03). La efeméride anterior más cercana es del **03-12**:
-- 1989: **Tim Berners-Lee** presenta su propuesta para un sistema de gestión de información, sentando las bases de la **World Wide Web**.
+- 1975: **Microsoft** es fundado por Bill Gates y Paul Allen.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
