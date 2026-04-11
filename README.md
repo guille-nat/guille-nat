@@ -109,7 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (04-10). La efeméride anterior más cercana es del **04-04**:
+No hay efemérides para el día de hoy (04-11). La efeméride anterior más cercana es del **04-04**:
 - 1975: **Microsoft** es fundado por Bill Gates y Paul Allen.
 <!--EFEMERIDES_END-->
 
