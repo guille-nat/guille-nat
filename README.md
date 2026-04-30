@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (04-29). La efeméride anterior más cercana es del **04-04**:
-- 1975: **Microsoft** es fundado por Bill Gates y Paul Allen.
+- 1993: El **CERN** libera el código del **World Wide Web** al dominio público, permitiendo su libre uso y crecimiento.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
