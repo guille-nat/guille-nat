@@ -109,6 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
+No hay efemérides para el día de hoy (05-01). La efeméride anterior más cercana es del **04-30**:
 - 1993: El **CERN** libera el código del **World Wide Web** al dominio público, permitiendo su libre uso y crecimiento.
 <!--EFEMERIDES_END-->
 
