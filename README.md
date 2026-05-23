@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (05-22). La efeméride anterior más cercana es del **04-30**:
-- 1993: El **CERN** libera el código del **World Wide Web** al dominio público, permitiendo su libre uso y crecimiento.
+- 1995: **MySQL** es lanzado por primera vez. Se convierte en una de las bases de datos de código abierto más populares.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
