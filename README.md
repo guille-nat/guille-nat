@@ -109,7 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (06-16). La efeméride anterior más cercana es del **06-15**:
+No hay efemérides para el día de hoy (06-17). La efeméride anterior más cercana es del **06-15**:
 - 1976: Se lanza el **Apple II**, un ordenador que tuvo un gran éxito en el mercado doméstico.
 <!--EFEMERIDES_END-->
 
