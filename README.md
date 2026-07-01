@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (06-30). La efeméride anterior más cercana es del **06-15**:
-- 1976: Se lanza el **Apple II**, un ordenador que tuvo un gran éxito en el mercado doméstico.
+- 1998: Nace la **Mozilla Foundation**, organización que promueve la apertura, innovación y oportunidad en la Web.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
