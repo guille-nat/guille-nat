@@ -109,7 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (07-12). La efeméride anterior más cercana es del **07-01**:
+No hay efemérides para el día de hoy (07-13). La efeméride anterior más cercana es del **07-01**:
 - 1998: Nace la **Mozilla Foundation**, organización que promueve la apertura, innovación y oportunidad en la Web.
 <!--EFEMERIDES_END-->
 
