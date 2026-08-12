@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (08-11). La efeméride anterior más cercana es del **07-01**:
-- 1998: Nace la **Mozilla Foundation**, organización que promueve la apertura, innovación y oportunidad en la Web.
+- 1981: IBM presenta la **IBM PC 5150**, un hito en la estandarización de los ordenadores personales.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
