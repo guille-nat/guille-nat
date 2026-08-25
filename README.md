@@ -109,7 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (08-24). La efeméride anterior más cercana es del **08-12**:
+No hay efemérides para el día de hoy (08-25). La efeméride anterior más cercana es del **08-12**:
 - 1981: IBM presenta la **IBM PC 5150**, un hito en la estandarización de los ordenadores personales.
 <!--EFEMERIDES_END-->
 
