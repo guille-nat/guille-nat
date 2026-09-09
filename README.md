@@ -109,8 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (09-08). La efeméride anterior más cercana es del **08-12**:
-- 1981: IBM presenta la **IBM PC 5150**, un hito en la estandarización de los ordenadores personales.
+- 1947: Se documenta el primer 'bug' real de computador por Grace Hopper: una polilla (moth) en el relé del Mark II. El término 'debugging' se populariza.
 <!--EFEMERIDES_END-->
 
 > *Se actualiza automáticamente todos los días vía GitHub Actions.*
