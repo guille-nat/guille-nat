@@ -11,7 +11,7 @@
 <p align="center">
   <a href="mailto:guillermonatali22@gmail.com"><img src="https://img.shields.io/badge/Email-guillermonatali22%40gmail.com-FF00AA?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/guillermo-natali-ulla-550469220/"><img src="https://img.shields.io/badge/LinkedIn-Guillermo%20Natali%20Ulla-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://nataliullacoder.com/"><img src="https://img.shields.io/badge/Portfolio-nataliullacoder.com-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="[https://nataliullacoder.com/](https://guillermonatali.com/)"><img src="https://img.shields.io/badge/Portfolio-nataliullacoder.com-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://discord.com/users/GUILLEN.U#9592"><img src="https://img.shields.io/badge/Discord-GUILLEN.U%239592-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=guille-nat&label=visitas&style=for-the-badge&color=FF00AA" />
 </p>
