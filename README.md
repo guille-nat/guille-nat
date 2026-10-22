@@ -109,7 +109,7 @@
 
 ## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
-No hay efemérides para el día de hoy (10-20). La efeméride anterior más cercana es del **09-09**:
+No hay efemérides para el día de hoy (10-22). La efeméride anterior más cercana es del **09-09**:
 - 1947: Se documenta el primer 'bug' real de computador por Grace Hopper: una polilla (moth) en el relé del Mark II. El término 'debugging' se populariza.
 <!--EFEMERIDES_END-->
 
