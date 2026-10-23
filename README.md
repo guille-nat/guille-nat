@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://guillermonatali.com/"><img src="https://img.shields.io/badge/Portfolio-guillermonatali.com-0B1220?style=for-the-badge&logo=googlechrome&logoColor=00E5FF&labelColor=0B1220&color=00E5FF" /></a>
   <a href="https://www.linkedin.com/in/guillermo-natali-ulla-550469220/"><img src="https://img.shields.io/badge/LinkedIn-Guillermo%20Natali%20Ulla-0B1220?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1220&color=0A66C2" /></a>
-  <a href="mailto:guillermonatali22@gmail.com"><img src="https://img.shields.io/badge/Email-guillermonatali22-0B1220?style=for-the-badge&logo=gmail&logoColor=FF00AA&labelColor=0B1220&color=FF00AA" /></a>
+  <a href="mailto:guille@guillermonatali.com"><img src="https://img.shields.io/badge/Email-guille%40guillermonatali.com-0B1220?style=for-the-badge&labelColor=0B1220&color=FF00AA" /></a>
   <img src="https://img.shields.io/badge/Discord-GUILLEN.U-0B1220?style=for-the-badge&logo=discord&logoColor=FF00AA&labelColor=0B1220&color=5865F2" />
   <img src="https://komarev.com/ghpvc/?username=guille-nat&label=vueltas&style=for-the-badge&color=FF00AA" />
 </p>
@@ -85,7 +85,7 @@ No hay efemérides para hoy (10-23). La más cercana es del **09-27**:
 ## 🤝 Conectemos
 
 ¿Tenés un sistema que tiene que funcionar en producción y sostenerse? Escribime a
-**[guillermonatali22@gmail.com](mailto:guillermonatali22@gmail.com)** o por [LinkedIn](https://www.linkedin.com/in/guillermo-natali-ulla-550469220/).
+**[guille@guillermonatali.com](mailto:guille@guillermonatali.com)** o por [LinkedIn](https://www.linkedin.com/in/guillermo-natali-ulla-550469220/).
 
 <p align="center">
   <img src="https://img.shields.io/badge/Team-Lewis%20Hamilton-0B1220?style=flat-square&labelColor=0B1220&color=00D2BE" />
