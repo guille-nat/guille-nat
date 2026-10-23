@@ -40,54 +40,72 @@ PROJECTS = [
             "admin sincronizada con Google Calendar."
         ),
         "stack": ["Django", "Django Ninja", "React", "PostgreSQL", "Redis", "Celery", "Docker"],
-        "link": "micaskin.com",
+        "cta": "micaskin.com",
         "badge": "CÓDIGO PRIVADO",
         "featured": True,
     },
     {
-        "slug": "gaucho-weather",
+        "slug": "mensajeria-omnicanal",
         "pos": "P2",
+        "title": "Mensajería omnicanal",
+        "kicker": "CONFIDENCIAL · BACKEND LEAD",
+        "desc": "Multi-tenant sobre WhatsApp para retail: 45 cuentas en una sola instancia y +500.000 mensajes por mes.",
+        "stack": ["Rails", "PostgreSQL", "Sidekiq", "WhatsApp API"],
+        "cta": "VER CASO",
+    },
+    {
+        "slug": "vps-multi-app",
+        "pos": "P3",
+        "title": "VPS multi-app",
+        "kicker": "INFRAESTRUCTURA PROPIA",
+        "desc": "Seis apps en producción en un solo servidor: un compose por app, Nginx central y bases sin puertos expuestos.",
+        "stack": ["Docker", "Nginx", "GitHub Actions"],
+        "cta": "VER CASO",
+    },
+    {
+        "slug": "gaucho-weather",
+        "pos": "P4",
         "title": "Gaucho Weather",
         "kicker": "AGRO · CLIMA",
         "desc": "Pronóstico y riesgo de heladas para el campo argentino, con alertas 48 h antes.",
         "stack": ["Python", "JavaScript", "Docker"],
-        "link": "guille-nat/Gaucho-Weather",
+        "cta": "VER REPO",
     },
     {
         "slug": "spree-recommendations",
-        "pos": "P3",
+        "pos": "P5",
         "title": "Spree Recommendations",
         "kicker": "E-COMMERCE · EXTENSIÓN",
         "desc": "Recomendaciones por historial de compras para Spree, sin N+1 y con jobs en segundo plano.",
         "stack": ["Rails", "Redis", "Sidekiq"],
-        "link": "guille-nat/spree_purchase_recommendations",
+        "cta": "VER REPO",
     },
     {
         "slug": "api-compras",
-        "pos": "P4",
+        "pos": "P6",
         "title": "API Compras",
         "kicker": "API REST",
         "desc": "API de compras con JWT, documentación Swagger/ReDoc y comprobantes automatizados.",
         "stack": ["Django", "DRF", "JWT"],
-        "link": "guille-nat/Api_Compras",
+        "cta": "VER REPO",
     },
     {
         "slug": "token-bar",
-        "pos": "P5",
+        "pos": "P7",
         "title": "token-bar",
         "kicker": "DEV TOOLING",
         "desc": "Mod para Claude Code: barra de estado con uso del plan, modelo y estado del repo.",
         "stack": ["TypeScript"],
-        "link": "guille-nat/token-bar",
+        "cta": "VER REPO",
     },
 ]
 
 TELEMETRY = [
-    ("BACKEND", "Django · DRF · Rails · .NET", 0.95),
-    ("APIs", "REST · JWT · OpenAPI · Webhooks", 0.90),
-    ("DATA", "PostgreSQL · MySQL · Redis", 0.85),
-    ("DEVOPS", "Docker · Nginx · GitHub Actions", 0.80),
-    ("FRONTEND", "React · Vite · TypeScript", 0.65),
+    ("BACKEND", "Django · Django Ninja · DRF · Rails", 0.95),
+    ("DATA", "PostgreSQL · Redis · MySQL", 0.90),
+    ("ASYNC", "Celery · Sidekiq · Webhooks", 0.85),
+    ("INFRA", "Docker · Nginx · Caddy · GitHub Actions", 0.85),
+    ("FRONTEND", "React · Next.js · TypeScript", 0.65),
 ]
 
 
@@ -139,9 +157,9 @@ def build_header():
 
     # Frases que rotan debajo del nombre
     lines = [
-        "Backend Developer · APIs que aguantan producción",
-        "Django · DRF · Rails · .NET",
-        "Docker · Nginx · CI/CD con GitHub Actions",
+        "Software Engineer · Backend Lead",
+        "Backend e infraestructura en producción",
+        "Django · Rails · PostgreSQL · Docker",
         "Lights out and away we go",
     ]
     step = 100 / len(lines)
@@ -210,7 +228,7 @@ def build_header():
 <text class="meta" x="40" y="400">ROSARIO · AR</text>
 <text class="meta" x="{w - 40}" y="400" text-anchor="end">DRIVER CODE: NAT</text>
 """
-    return svg(w, h, body, style, "Guillermo Natali Ulla — Backend Developer")
+    return svg(w, h, body, style, "Guillermo Natali Ulla — Software Engineer · Backend Lead")
 
 
 def build_telemetry():
@@ -249,11 +267,11 @@ def build_telemetry():
 <text class="h" x="40" y="48">DRIVER PROFILE</text>
 <text class="code" x="36" y="132">NAT</text>
 <text class="name" x="40" y="176">Guillermo Natali Ulla</text>
-<text class="f" x="40" y="210">Backend Developer · Full-stack · DevOps</text>
-<text class="fm" x="40" y="238">Ing. en Sistemas · 4º año (UAI Rosario)</text>
-<text class="fm" x="40" y="262">Téc. Sup. en Desarrollo de Software</text>
+<text class="f" x="40" y="210">Software Engineer · Backend Lead (remoto)</text>
+<text class="fm" x="40" y="238">Ing. en Sistemas Informáticos · último año (UAI)</text>
+<text class="fm" x="40" y="262">Téc. Sup. en Desarrollo de Software (ISBL, 2024)</text>
 <circle class="dot" cx="46" cy="290" r="5" fill="#22C55E"/>
-<text class="fm" x="58" y="295">En pista: abierto a proyectos backend y freelance</text>
+<text class="fm" x="58" y="295">En pista: abierto a sistemas a medida</text>
 <path class="trace" d="{trace}" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.7"/>
 <line x1="520" y1="40" x2="520" y2="310" stroke="{LINE}" stroke-width="2"/>
 <text class="h" x="560" y="48">TELEMETRY</text>
@@ -267,6 +285,8 @@ def build_project(p):
     w, h = (1200, 270) if featured else (590, 270)
     wrap = 118 if featured else 64
     desc_lines = textwrap.wrap(p["desc"], wrap)
+    # Más de dos líneas pisan los chips de stack
+    assert len(desc_lines) <= 2, f"descripción demasiado larga: {p['slug']}"
 
     chips, cx = [], 32
     for tech in p["stack"]:
@@ -319,7 +339,7 @@ def build_project(p):
 {badge}
 {desc}
 {"".join(chips)}
-<text class="link" x="{w - 32}" y="{h - 51 if featured else 50}" text-anchor="end">{escape(p["link"] if featured else "VER REPO")} →</text>
+<text class="link" x="{w - 32}" y="{h - 51 if featured else 50}" text-anchor="end">{escape(p["cta"])} →</text>
 """
     return svg(w, h, body, style, f'{p["title"]}: {p["desc"]}')
 

@@ -35,7 +35,7 @@
 <rect x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="#1E293B" stroke-width="2"/>
 <rect class="border" x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
 <text class="kick" x="32" y="50">API REST</text>
-<text class="pos" x="32" y="100">P4</text>
+<text class="pos" x="32" y="100">P6</text>
 <text class="title" x="104" y="100">API Compras</text>
 
 <text class="desc" x="32" y="140">API de compras con JWT, documentación Swagger/ReDoc y</text><text class="desc" x="32" y="164">comprobantes automatizados.</text>

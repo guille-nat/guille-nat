@@ -35,7 +35,7 @@
 <rect x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="#1E293B" stroke-width="2"/>
 <rect class="border" x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
 <text class="kick" x="32" y="50">DEV TOOLING</text>
-<text class="pos" x="32" y="100">P5</text>
+<text class="pos" x="32" y="100">P7</text>
 <text class="title" x="104" y="100">token-bar</text>
 
 <text class="desc" x="32" y="140">Mod para Claude Code: barra de estado con uso del plan, modelo y</text><text class="desc" x="32" y="164">estado del repo.</text>

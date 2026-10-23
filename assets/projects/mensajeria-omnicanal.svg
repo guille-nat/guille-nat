@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="Mensajería omnicanal: Multi-tenant sobre WhatsApp para retail: 45 cuentas en una sola instancia y +500.000 mensajes por mes.">
+<style>
+
+.pos { font: 800 36px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: url(#neon); }
+.kick { font: 700 12px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #FF00AA; letter-spacing: 3px; }
+.title { font: 800 28px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #E2E8F0; }
+.desc { font: 400 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #94A3B8; }
+.chip { font: 600 13px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #8BE9FD; }
+.badge { font: 700 12px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #FF00AA; letter-spacing: 2px; }
+.link { font: 600 14px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #00E5FF; }
+.border { stroke-dasharray: 120 1720; animation: lap 5s linear infinite; }
+@keyframes lap { to { stroke-dashoffset: -1840; } }
+.sweep { animation: sweep 5s ease-in-out infinite; }
+@keyframes sweep { 0%, 60% { transform: translateX(-590px); } 100% { transform: translateX(590px); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#070B14"/><stop offset="1" stop-color="#0F172A"/>
+</linearGradient>
+<linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#FF00AA"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="6" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.05"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="card"><rect width="590" height="270" rx="18"/></clipPath>
+</defs>
+<rect width="590" height="270" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#card)"><rect class="sweep" x="0" y="0" width="295" height="270" fill="url(#shine)"/></g>
+<rect x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="#1E293B" stroke-width="2"/>
+<rect class="border" x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+<text class="kick" x="32" y="50">CONFIDENCIAL · BACKEND LEAD</text>
+<text class="pos" x="32" y="100">P2</text>
+<text class="title" x="104" y="100">Mensajería omnicanal</text>
+
+<text class="desc" x="32" y="140">Multi-tenant sobre WhatsApp para retail: 45 cuentas en una sola</text><text class="desc" x="32" y="164">instancia y +500.000 mensajes por mes.</text>
+<rect x="32" y="200" width="68" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="66" y="219" text-anchor="middle">Rails</text><rect x="110.0" y="200" width="110" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="165" y="219" text-anchor="middle">PostgreSQL</text><rect x="230.0" y="200" width="85" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="272" y="219" text-anchor="middle">Sidekiq</text><rect x="324.8" y="200" width="127" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="388" y="219" text-anchor="middle">WhatsApp API</text>
+<text class="link" x="558" y="50" text-anchor="end">VER CASO →</text>
+
+</svg>

@@ -35,7 +35,7 @@
 <rect x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="#1E293B" stroke-width="2"/>
 <rect class="border" x="1" y="1" width="588" height="268" rx="17" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
 <text class="kick" x="32" y="50">E-COMMERCE · EXTENSIÓN</text>
-<text class="pos" x="32" y="100">P3</text>
+<text class="pos" x="32" y="100">P5</text>
 <text class="title" x="104" y="100">Spree Recommendations</text>
 
 <text class="desc" x="32" y="140">Recomendaciones por historial de compras para Spree, sin N+1 y</text><text class="desc" x="32" y="164">con jobs en segundo plano.</text>

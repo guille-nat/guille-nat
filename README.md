@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Guillermo Natali Ulla — Backend Developer" />
+  <img src="assets/header.svg" width="100%" alt="Guillermo Natali Ulla — Software Engineer · Backend Lead" />
 </p>
 
 <p align="center">
@@ -11,15 +11,21 @@
 </p>
 
 <p align="center">
-  <img src="assets/telemetry.svg" width="100%" alt="Perfil: backend developer, Ing. en Sistemas en UAI Rosario. Stack: Django, DRF, Rails, .NET, PostgreSQL, Redis, Docker, Nginx, React" />
+  <img src="assets/telemetry.svg" width="100%" alt="Perfil: Software Engineer y Backend Lead, último año de Ing. en Sistemas en UAI. Stack: Django, Django Ninja, Rails, PostgreSQL, Redis, Celery, Sidekiq, Docker, Nginx, React" />
 </p>
 
 <img src="assets/divider.svg" width="100%" />
 
-## 🏁 Parrilla de proyectos
+## 🏁 Algunas cosas que construí
+
+Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Los casos completos (problema, decisión y resultado) están en [guillermonatali.com](https://guillermonatali.com/).
 
 <p align="center">
   <a href="https://micaskin.com/"><img src="assets/projects/skinstudio.svg" width="100%" alt="Skin Studio: plataforma de turnos online para una clínica estética (proyecto para cliente)" /></a>
+</p>
+<p align="center">
+  <a href="https://guillermonatali.com/casos/mensajeria-omnicanal/"><img src="assets/projects/mensajeria-omnicanal.svg" width="49%" alt="Mensajería omnicanal: plataforma multi-tenant sobre WhatsApp, 45 cuentas en una instancia" /></a>
+  <a href="https://guillermonatali.com/casos/vps-multi-app/"><img src="assets/projects/vps-multi-app.svg" width="49%" alt="VPS multi-app: seis aplicaciones en producción en un servidor" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/guille-nat/Gaucho-Weather"><img src="assets/projects/gaucho-weather.svg" width="49%" alt="Gaucho Weather" /></a>
@@ -35,7 +41,7 @@
 ## 🧰 El garage
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,rails,ruby,dotnet,cs,ts,js,react,vite,html,css&perline=7" alt="Lenguajes y frameworks" />
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,rails,ruby,cs,ts,js,react,nextjs,vite,html,css&perline=7" alt="Lenguajes y frameworks" />
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite,firebase,docker,nginx,aws,githubactions,linux&perline=11" alt="Datos e infraestructura" />
@@ -78,7 +84,7 @@ No hay efemérides para hoy (10-23). La más cercana es del **09-27**:
 
 ## 🤝 Conectemos
 
-¿Tenés un proyecto backend, una API o un deploy que necesita una mano? Escribime a
+¿Tenés un sistema que tiene que funcionar en producción y sostenerse? Escribime a
 **[guillermonatali22@gmail.com](mailto:guillermonatali22@gmail.com)** o por [LinkedIn](https://www.linkedin.com/in/guillermo-natali-ulla-550469220/).
 
 <p align="center">
