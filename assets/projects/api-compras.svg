@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="API Compras: API de compras con JWT, documentación Swagger/ReDoc y comprobantes automatizados.">
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="API Compras: Compras, pagos en cuotas, inventario y reportes asíncronos, con JWT y caché en Redis.">
 <style>
 
 .pos { font: 800 36px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: url(#neon); }
@@ -38,8 +38,8 @@
 <text class="pos" x="32" y="100">P6</text>
 <text class="title" x="104" y="100">API Compras</text>
 
-<text class="desc" x="32" y="140">API de compras con JWT, documentación Swagger/ReDoc y</text><text class="desc" x="32" y="164">comprobantes automatizados.</text>
-<rect x="32" y="200" width="76" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="70" y="219" text-anchor="middle">Django</text><rect x="118.4" y="200" width="51" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="144" y="219" text-anchor="middle">DRF</text><rect x="179.60000000000002" y="200" width="51" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="205" y="219" text-anchor="middle">JWT</text>
+<text class="desc" x="32" y="140">Compras, pagos en cuotas, inventario y reportes asíncronos, con</text><text class="desc" x="32" y="164">JWT y caché en Redis.</text>
+<rect x="32" y="200" width="76" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="70" y="219" text-anchor="middle">Django</text><rect x="118.4" y="200" width="51" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="144" y="219" text-anchor="middle">DRF</text><rect x="179.60000000000002" y="200" width="76" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="218" y="219" text-anchor="middle">Celery</text><rect x="266.0" y="200" width="68" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="300" y="219" text-anchor="middle">Redis</text><rect x="344.0" y="200" width="68" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="378" y="219" text-anchor="middle">MySQL</text>
 <text class="link" x="558" y="50" text-anchor="end">VER REPO →</text>
 
 </svg>

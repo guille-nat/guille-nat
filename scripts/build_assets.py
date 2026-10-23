@@ -68,7 +68,7 @@ PROJECTS = [
         "title": "Gaucho Weather",
         "kicker": "AGRO · CLIMA",
         "desc": "Pronóstico y riesgo de heladas para el campo argentino, con alertas 48 h antes.",
-        "stack": ["Python", "JavaScript", "Docker"],
+        "stack": ["Django", "DRF", "React", "Docker"],
         "cta": "VER REPO",
     },
     {
@@ -85,8 +85,8 @@ PROJECTS = [
         "pos": "P6",
         "title": "API Compras",
         "kicker": "API REST",
-        "desc": "API de compras con JWT, documentación Swagger/ReDoc y comprobantes automatizados.",
-        "stack": ["Django", "DRF", "JWT"],
+        "desc": "Compras, pagos en cuotas, inventario y reportes asíncronos, con JWT y caché en Redis.",
+        "stack": ["Django", "DRF", "Celery", "Redis", "MySQL"],
         "cta": "VER REPO",
     },
     {
