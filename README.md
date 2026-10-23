@@ -1,79 +1,59 @@
 <p align="center">
-  <img src="banner_pitlane.svg" alt="Guillermo Natali Ulla — Software Developer" />
+  <img src="assets/header.svg" width="100%" alt="Guillermo Natali Ulla — Backend Developer" />
 </p>
-
-<div align="center">
-  <img src="logo.png" alt="Logo Guillermo Natali Ulla" width="110" />
-</div>
-
-<h3 align="center">Backend Developer • Full‑stack Enthusiast • DevOps Explorer</h3>
-<p align="center">
-  <a href="mailto:guillermonatali22@gmail.com"><img src="https://img.shields.io/badge/Email-guillermonatali22%40gmail.com-FF00AA?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/guillermo-natali-ulla-550469220/"><img src="https://img.shields.io/badge/LinkedIn-Guillermo%20Natali%20Ulla-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://guillermonatali.com/"><img src="https://img.shields.io/badge/Portfolio-guillermonatali.com-111827?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Discord-GUILLEN.U-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=guille-nat&label=visitas&style=for-the-badge&color=FF00AA" />
-</p>
-
----
-
-## 📚 Sobre mí
-
-- 🎓 **Técnico Superior en Desarrollo de Software** (graduado).
-- 🏫 Actualmente cursando **4º año de Ingeniería en Sistemas** en la **Universidad Abierta Interamericana – UAI Rosario** (turno noche).
-- 💻 Backend con **Django**, **Ruby on Rails** y **APIs REST**.
-- 🔐 Seguridad, despliegues con **Docker/Nginx** y CI/CD con **GitHub Actions**; bases de datos **PostgreSQL/MySQL/Redis**.
-- ⚡ Enfoque en **performance**, **buenas prácticas** y **DX**.
-
----
-
-## 🛠️ Tech Stack
-
-| | |
-|---|---|
-| **Backend** | <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Ruby_on_Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white"/> |
-| **Bases de datos** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/> |
-| **DevOps** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=FCC624"/> |
-| **Lenguajes** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> |
-| **Frontend** | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> |
-
----
-
-## 🚀 Proyectos Destacados
-
-| Proyecto | Qué hace | Stack |
-|---|---|---|
-| 🌾 [**Gaucho Weather**](https://github.com/guille-nat/Gaucho-Weather) | Pronóstico del tiempo y **riesgo de heladas** para el campo argentino, con alertas 48 h antes. | Python · JavaScript · Docker |
-| 🎸 [**Rock & Roll Podcast Service**](https://github.com/guille-nat/rock_and_roll_podcast_service) | API REST que ingesta podcasts desde iTunes a PostgreSQL, extrae paletas de color de las portadas y sirve un catálogo filtrable. | Python · PostgreSQL · Docker |
-| 🛒 [**Spree Purchase Recommendations**](https://github.com/guille-nat/spree_purchase_recommendations) | Extensión para Spree con recomendaciones por historial de compras (Redis, Sidekiq, sin N+1). | Ruby on Rails · Redis · Sidekiq |
-| 🧾 [**API Compras**](https://github.com/guille-nat/Api_Compras) | API REST con JWT, Swagger/ReDoc y automatización de comprobantes. | Django · DRF · JWT |
-| 📟 [**token-bar**](https://github.com/guille-nat/token-bar) | Mod para Claude Code: barra de estado con uso del plan, modelo y estado del repo. | TypeScript |
-
----
-
-## 🏎️ F1 Vibes
 
 <p align="center">
-  <img src="https://img.shields.io/badge/F1-Mindset-000000?style=for-the-badge&logo=fastlane&logoColor=white" />
-  <img src="https://img.shields.io/badge/Team-Lewis%20Hamilton-00D2BE?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Support-Franco%20Colapinto-1B5E20?style=for-the-badge" />
+  <a href="https://guillermonatali.com/"><img src="https://img.shields.io/badge/Portfolio-guillermonatali.com-0B1220?style=for-the-badge&logo=googlechrome&logoColor=00E5FF&labelColor=0B1220&color=00E5FF" /></a>
+  <a href="https://www.linkedin.com/in/guillermo-natali-ulla-550469220/"><img src="https://img.shields.io/badge/LinkedIn-Guillermo%20Natali%20Ulla-0B1220?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1220&color=0A66C2" /></a>
+  <a href="mailto:guillermonatali22@gmail.com"><img src="https://img.shields.io/badge/Email-guillermonatali22-0B1220?style=for-the-badge&logo=gmail&logoColor=FF00AA&labelColor=0B1220&color=FF00AA" /></a>
+  <img src="https://img.shields.io/badge/Discord-GUILLEN.U-0B1220?style=for-the-badge&logo=discord&logoColor=FF00AA&labelColor=0B1220&color=5865F2" />
+  <img src="https://komarev.com/ghpvc/?username=guille-nat&label=vueltas&style=for-the-badge&color=FF00AA" />
 </p>
-
----
-
-## 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=guille-nat&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guille-nat&layout=compact&theme=radical&hide_border=true&langs_count=8" height="165" alt="Top languages" />
+  <img src="assets/telemetry.svg" width="100%" alt="Perfil: backend developer, Ing. en Sistemas en UAI Rosario. Stack: Django, DRF, Rails, .NET, PostgreSQL, Redis, Docker, Nginx, React" />
+</p>
+
+<img src="assets/divider.svg" width="100%" />
+
+## 🏁 Parrilla de proyectos
+
+<p align="center">
+  <a href="https://micaskin.com/"><img src="assets/projects/skinstudio.svg" width="100%" alt="Skin Studio: plataforma de turnos online para una clínica estética (proyecto para cliente)" /></a>
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=guille-nat&theme=radical&hide_border=true" height="165" alt="GitHub streak" />
+  <a href="https://github.com/guille-nat/Gaucho-Weather"><img src="assets/projects/gaucho-weather.svg" width="49%" alt="Gaucho Weather" /></a>
+  <a href="https://github.com/guille-nat/spree_purchase_recommendations"><img src="assets/projects/spree-recommendations.svg" width="49%" alt="Spree Purchase Recommendations" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/guille-nat/Api_Compras"><img src="assets/projects/api-compras.svg" width="49%" alt="API Compras" /></a>
+  <a href="https://github.com/guille-nat/token-bar"><img src="assets/projects/token-bar.svg" width="49%" alt="token-bar" /></a>
 </p>
 
----
+<img src="assets/divider.svg" width="100%" />
 
-## 🐍 Snake Contributions
+## 🧰 El garage
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,rails,ruby,dotnet,cs,ts,js,react,vite,html,css&perline=7" alt="Lenguajes y frameworks" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite,firebase,docker,nginx,aws,githubactions,linux&perline=11" alt="Datos e infraestructura" />
+</p>
+
+<img src="assets/divider.svg" width="100%" />
+
+## 📊 Telemetría en vivo
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=guille-nat&show_icons=true&count_private=true&hide_border=true&border_radius=18&bg_color=0B1220&title_color=FF00AA&icon_color=00E5FF&text_color=CBD5E1&ring_color=00E5FF" height="170" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guille-nat&layout=compact&langs_count=8&hide_border=true&border_radius=18&bg_color=0B1220&title_color=FF00AA&text_color=CBD5E1" height="170" alt="Lenguajes más usados" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=guille-nat&hide_border=true&border_radius=18&background=0B1220&ring=FF00AA&fire=FF00AA&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00E5FF&sideLabels=CBD5E1&dates=94A3B8&stroke=1E293B" height="170" alt="Racha de contribuciones" />
+</p>
+
+### 🐍 Vuelta de clasificación
 
 <p align="center">
   <picture>
@@ -83,21 +63,29 @@
   </picture>
 </p>
 
-> *Se regenera todos los días vía GitHub Actions.*
+<img src="assets/divider.svg" width="100%" />
 
----
+## 📻 Team radio · Efemérides de la programación
 
-## 📅 Efemérides de la Programación
 <!--EFEMERIDES_START-->
 No hay efemérides para hoy (10-23). La más cercana es del **09-27**:
 - 1983: **Richard Stallman** anuncia el proyecto **GNU**.
 <!--EFEMERIDES_END-->
 
-> *Se actualiza automáticamente todos los días vía GitHub Actions.*
+<sub>Se actualiza solo todos los días con GitHub Actions.</sub>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 🤝 Conectemos
 
 ¿Tenés un proyecto backend, una API o un deploy que necesita una mano? Escribime a
 **[guillermonatali22@gmail.com](mailto:guillermonatali22@gmail.com)** o por [LinkedIn](https://www.linkedin.com/in/guillermo-natali-ulla-550469220/).
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Team-Lewis%20Hamilton-0B1220?style=flat-square&labelColor=0B1220&color=00D2BE" />
+  <img src="https://img.shields.io/badge/Support-Franco%20Colapinto-0B1220?style=flat-square&labelColor=0B1220&color=1B5E20" />
+</p>
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Gracias por pasar por el pit lane" />
+</p>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Perfil de Guillermo Natali Ulla y stack principal">
+<style>
+
+.h { font: 700 13px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #FF00AA; letter-spacing: 4px; }
+.name { font: 800 34px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #E2E8F0; }
+.code { font: 800 76px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: url(#neon); }
+.k { font: 700 14px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #8BE9FD; letter-spacing: 3px; }
+.d { font: 400 14px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #94A3B8; }
+.f { font: 400 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #E2E8F0; }
+.fm { font: 400 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #94A3B8; }
+.bar { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: fill 1.4s cubic-bezier(.2,.8,.2,1) forwards; }
+@keyframes fill { to { transform: scaleX(1); } }
+.dot { animation: blink 1.2s steps(2, start) infinite; }
+@keyframes blink { to { visibility: hidden; } }
+.trace { stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 4s ease-in-out infinite; }
+@keyframes draw { 0% { stroke-dashoffset: 700; } 60%, 100% { stroke-dashoffset: 0; } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#070B14"/><stop offset="1" stop-color="#0F172A"/>
+</linearGradient>
+<linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#FF00AA"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="6" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter></defs>
+<rect width="1200" height="350" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="348" rx="17" fill="none" stroke="#1E293B" stroke-width="2"/>
+<text class="h" x="40" y="48">DRIVER PROFILE</text>
+<text class="code" x="36" y="132">NAT</text>
+<text class="name" x="40" y="176">Guillermo Natali Ulla</text>
+<text class="f" x="40" y="210">Backend Developer · Full-stack · DevOps</text>
+<text class="fm" x="40" y="238">Ing. en Sistemas · 4º año (UAI Rosario)</text>
+<text class="fm" x="40" y="262">Téc. Sup. en Desarrollo de Software</text>
+<circle class="dot" cx="46" cy="290" r="5" fill="#22C55E"/>
+<text class="fm" x="58" y="295">En pista: abierto a proyectos backend y freelance</text>
+<path class="trace" d="M40 330 C 90 330, 110 312, 150 314 S 210 336, 250 326 S 300 306, 340 310 S 400 334, 440 324 S 480 314, 500 316" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.7"/>
+<line x1="520" y1="40" x2="520" y2="310" stroke="#1E293B" stroke-width="2"/>
+<text class="h" x="560" y="48">TELEMETRY</text>
+<text class="k" x="560" y="96">BACKEND</text><text class="d" x="1160" y="96" text-anchor="end">Django · DRF · Rails · .NET</text><rect x="560" y="106" width="600" height="8" rx="4" fill="#1E293B"/><rect class="bar" style="animation-delay:0.3s" x="560" y="106" width="570" height="8" rx="4" fill="url(#neon)"/><text class="k" x="560" y="146">APIs</text><text class="d" x="1160" y="146" text-anchor="end">REST · JWT · OpenAPI · Webhooks</text><rect x="560" y="156" width="600" height="8" rx="4" fill="#1E293B"/><rect class="bar" style="animation-delay:0.55s" x="560" y="156" width="540" height="8" rx="4" fill="url(#neon)"/><text class="k" x="560" y="196">DATA</text><text class="d" x="1160" y="196" text-anchor="end">PostgreSQL · MySQL · Redis</text><rect x="560" y="206" width="600" height="8" rx="4" fill="#1E293B"/><rect class="bar" style="animation-delay:0.8s" x="560" y="206" width="510" height="8" rx="4" fill="url(#neon)"/><text class="k" x="560" y="246">DEVOPS</text><text class="d" x="1160" y="246" text-anchor="end">Docker · Nginx · GitHub Actions</text><rect x="560" y="256" width="600" height="8" rx="4" fill="#1E293B"/><rect class="bar" style="animation-delay:1.05s" x="560" y="256" width="480" height="8" rx="4" fill="url(#neon)"/><text class="k" x="560" y="296">FRONTEND</text><text class="d" x="1160" y="296" text-anchor="end">React · Vite · TypeScript</text><rect x="560" y="306" width="600" height="8" rx="4" fill="#1E293B"/><rect class="bar" style="animation-delay:1.3s" x="560" y="306" width="390" height="8" rx="4" fill="url(#neon)"/>
+
+</svg>

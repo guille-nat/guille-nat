@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Skin Studio: Plataforma de turnos online para una clínica estética: carrito multi-turno, señas con MercadoPago, gift cards, recordatorios automáticos y una agenda admin sincronizada con Google Calendar.">
+<style>
+
+.pos { font: 800 44px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: url(#neon); }
+.kick { font: 700 12px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #FF00AA; letter-spacing: 3px; }
+.title { font: 800 38px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #E2E8F0; }
+.desc { font: 400 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #94A3B8; }
+.chip { font: 600 13px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #8BE9FD; }
+.badge { font: 700 12px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #FF00AA; letter-spacing: 2px; }
+.link { font: 600 14px 'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace; fill: #00E5FF; }
+.border { stroke-dasharray: 120 2940; animation: lap 6s linear infinite; }
+@keyframes lap { to { stroke-dashoffset: -3060; } }
+.sweep { animation: sweep 5s ease-in-out infinite; }
+@keyframes sweep { 0%, 60% { transform: translateX(-1200px); } 100% { transform: translateX(1200px); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#070B14"/><stop offset="1" stop-color="#0F172A"/>
+</linearGradient>
+<linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#FF00AA"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="6" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.05"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="card"><rect width="1200" height="270" rx="18"/></clipPath>
+</defs>
+<rect width="1200" height="270" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#card)"><rect class="sweep" x="0" y="0" width="600" height="270" fill="url(#shine)"/></g>
+<rect x="1" y="1" width="1198" height="268" rx="17" fill="none" stroke="#1E293B" stroke-width="2"/>
+<rect class="border" x="1" y="1" width="1198" height="268" rx="17" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+<text class="kick" x="32" y="50">PROYECTO PARA CLIENTE · EN PRODUCCIÓN</text>
+<text class="pos" x="32" y="108">P1</text>
+<text class="title" x="120" y="108">Skin Studio</text>
+<rect x="1020" y="30" width="148" height="28" rx="6" fill="none" stroke="#FF00AA"/><text class="badge" x="1094" y="49" text-anchor="middle">CÓDIGO PRIVADO</text>
+<text class="desc" x="32" y="150">Plataforma de turnos online para una clínica estética: carrito multi-turno, señas con MercadoPago, gift cards,</text><text class="desc" x="32" y="174">recordatorios automáticos y una agenda admin sincronizada con Google Calendar.</text>
+<rect x="32" y="200" width="76" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="70" y="219" text-anchor="middle">Django</text><rect x="118.4" y="200" width="127" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="182" y="219" text-anchor="middle">Django Ninja</text><rect x="255.20000000000002" y="200" width="68" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="289" y="219" text-anchor="middle">React</text><rect x="333.20000000000005" y="200" width="110" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="388" y="219" text-anchor="middle">PostgreSQL</text><rect x="453.20000000000005" y="200" width="68" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="487" y="219" text-anchor="middle">Redis</text><rect x="531.2" y="200" width="76" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="569" y="219" text-anchor="middle">Celery</text><rect x="617.6" y="200" width="76" height="28" rx="14" fill="#0F172A" stroke="#1E293B"/><text class="chip" x="656" y="219" text-anchor="middle">Docker</text>
+<text class="link" x="1168" y="219" text-anchor="end">micaskin.com →</text>
+
+</svg>
