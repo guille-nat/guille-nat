@@ -15,10 +15,10 @@
   <rect x="0" y="250" width="1400" height="12" fill="url(#neon)" opacity="0.75"/>
   <rect x="0" y="272" width="1400" height="8" fill="url(#neon)" opacity="0.45"/>
   <rect x="0" y="292" width="1400" height="4" fill="url(#neon)" opacity="0.30"/>
-  <text x="220" y="150" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="54" fill="#FF00AA">
+  <text x="80" y="150" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="52" font-weight="700" fill="#FF00AA">
     Guillermo Natali Ulla — Software Developer
   </text>
-  <text x="220" y="205" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="26" fill="#8BE9FD">
+  <text x="80" y="205" font-family="Segoe UI, Ubuntu, Roboto, Arial, sans-serif" font-size="26" fill="#8BE9FD">
     F1 mindset · performance · teamwork · strategy
   </text>
 </svg>
