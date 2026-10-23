@@ -7,7 +7,7 @@
   <a href="https://www.linkedin.com/in/guillermo-natali-ulla-550469220/"><img src="https://img.shields.io/badge/LinkedIn-Guillermo%20Natali%20Ulla-0B1220?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1220&color=0A66C2" /></a>
   <a href="mailto:guille@guillermonatali.com"><img src="https://img.shields.io/badge/Email-guille%40guillermonatali.com-0B1220?style=for-the-badge&labelColor=0B1220&color=FF00AA" /></a>
   <img src="https://img.shields.io/badge/Discord-GUILLEN.U-0B1220?style=for-the-badge&logo=discord&logoColor=FF00AA&labelColor=0B1220&color=5865F2" />
-  <img src="https://komarev.com/ghpvc/?username=guille-nat&label=vueltas&style=for-the-badge&color=FF00AA" />
+  <img src="https://komarev.com/ghpvc/?username=guille-nat&label=VUELTAS&color=FF00AA&style=for-the-badge&abbreviated=true" />
 </p>
 
 <p align="center">
