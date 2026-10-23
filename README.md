@@ -52,11 +52,13 @@ Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Lo
 ## 📊 Telemetría en vivo
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=guille-nat&show_icons=true&count_private=true&hide_border=true&border_radius=18&bg_color=0B1220&title_color=FF00AA&icon_color=00E5FF&text_color=CBD5E1&ring_color=00E5FF" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guille-nat&layout=compact&langs_count=8&hide_border=true&border_radius=18&bg_color=0B1220&title_color=FF00AA&text_color=CBD5E1" height="170" alt="Lenguajes más usados" />
+  <img src="assets/pitwall.svg" width="100%" alt="Stats de GitHub: contribuciones, commits, pull requests, rachas, lenguajes por commits y actividad por día" />
 </p>
+
+### 🏙️ El circuito en 3D
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=guille-nat&hide_border=true&border_radius=18&background=0B1220&ring=FF00AA&fire=FF00AA&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00E5FF&sideLabels=CBD5E1&dates=94A3B8&stroke=1E293B" height="170" alt="Racha de contribuciones" />
+  <img src="profile-3d-contrib/profile-3d-neon.svg" width="100%" alt="Calendario de contribuciones en 3D" />
 </p>
 
 ### 🐍 Vuelta de clasificación

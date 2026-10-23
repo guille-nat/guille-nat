@@ -1,0 +1,19 @@
+{
+  "type": "normal",
+  "fileName": "profile-3d-neon.svg",
+  "backgroundColor": "#070B14",
+  "foregroundColor": "#E2E8F0",
+  "strongColor": "#FF00AA",
+  "weakColor": "#94A3B8",
+  "radarColor": "#00E5FF",
+  "growingAnimation": true,
+  "contribColors": ["#141B2D", "#0B3A4A", "#0095B3", "#00E5FF", "#FF00AA"],
+  "l10n": {
+    "commit": "Commits",
+    "repo": "Repos",
+    "review": "Reviews",
+    "pullreq": "Pull Req",
+    "issue": "Issues",
+    "contrib": "contribuciones"
+  }
+}

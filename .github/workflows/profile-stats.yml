@@ -1,0 +1,45 @@
+name: Profile stats
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # 00:00 en Argentina
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      # Token personal para contar repos privados y de organizaciones; sin él se ven solo los públicos
+      PITWALL_TOKEN: ${{ secrets.PITWALL_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      # Sin el token personal los lenguajes saldrían solo de repos públicos: mejor no pisar el último pit wall
+      - name: Build pit wall
+        if: env.PITWALL_TOKEN != ''
+        run: python scripts/build_pitwall.py
+
+      - name: Build 3D contributions
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.PITWALL_TOKEN || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/3d-contrib.json
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pitwall.svg profile-3d-contrib/profile-3d-neon.svg
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update profile stats (auto)"
+          git pull --rebase origin main
+          git push
