@@ -76,7 +76,7 @@ Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Lo
 ## 📻 Team radio · Efemérides de la programación
 
 <!--EFEMERIDES_START-->
-No hay efemérides para hoy (10-24). La más cercana es del **09-27**:
+No hay efemérides para hoy (10-25). La más cercana es del **09-27**:
 - 1983: **Richard Stallman** anuncia el proyecto **GNU**.
 <!--EFEMERIDES_END-->
 
