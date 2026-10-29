@@ -76,8 +76,8 @@ Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Lo
 ## 📻 Team radio · Efemérides de la programación
 
 <!--EFEMERIDES_START-->
-No hay efemérides para hoy (10-28). La más cercana es del **09-27**:
-- 1983: **Richard Stallman** anuncia el proyecto **GNU**.
+**Un día como hoy (10-29):**
+- 1969: Se envía el primer mensaje entre dos computadoras en **ARPANET**, el precursor de Internet.
 <!--EFEMERIDES_END-->
 
 <sub>Se actualiza solo todos los días con GitHub Actions.</sub>
