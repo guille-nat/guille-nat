@@ -76,7 +76,7 @@ Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Lo
 ## 📻 Team radio · Efemérides de la programación
 
 <!--EFEMERIDES_START-->
-**Un día como hoy (10-29):**
+No hay efemérides para hoy (10-30). La más cercana es del **10-29**:
 - 1969: Se envía el primer mensaje entre dos computadoras en **ARPANET**, el precursor de Internet.
 <!--EFEMERIDES_END-->
 
