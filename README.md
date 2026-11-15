@@ -76,8 +76,8 @@ Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Lo
 ## 📻 Team radio · Efemérides de la programación
 
 <!--EFEMERIDES_START-->
-No hay efemérides para hoy (11-14). La más cercana es del **10-29**:
-- 1969: Se envía el primer mensaje entre dos computadoras en **ARPANET**, el precursor de Internet.
+**Un día como hoy (11-15):**
+- 1971: Intel anuncia el **4004**, el primer microprocesador comercial.
 <!--EFEMERIDES_END-->
 
 <sub>Se actualiza solo todos los días con GitHub Actions.</sub>
