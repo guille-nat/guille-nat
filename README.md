@@ -76,7 +76,7 @@ Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Lo
 ## 📻 Team radio · Efemérides de la programación
 
 <!--EFEMERIDES_START-->
-No hay efemérides para hoy (11-18). La más cercana es del **11-15**:
+No hay efemérides para hoy (11-19). La más cercana es del **11-15**:
 - 1971: Intel anuncia el **4004**, el primer microprocesador comercial.
 <!--EFEMERIDES_END-->
 
