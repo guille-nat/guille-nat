@@ -76,7 +76,7 @@ Sistemas que diseñé y sostengo en producción, más algunos repos abiertos. Lo
 ## 📻 Team radio · Efemérides de la programación
 
 <!--EFEMERIDES_START-->
-No hay efemérides para hoy (11-26). La más cercana es del **11-20**:
+No hay efemérides para hoy (11-27). La más cercana es del **11-20**:
 - 1985: Microsoft lanza **Windows 1.0**.
 <!--EFEMERIDES_END-->
 
